@@ -61,7 +61,7 @@ const GridForm = () => {
     <div className=" mt-10 p-4 flex w-[800px] border rounded-lg  justify-center items-center text-black flex-col">
      
      <h3 className="text-center font-bold text-xl text-black">
-        Start at the bottom and write situations or tasks that cause varying levels of fear or anxiety. Assign a fear value out of 10 for each task
+       Start at the bottom and write situations or tasks that cause varying levels of fear or anxiety. Assign a fear value out of 100 for each task, with situations that you fear or worry the least getting a rating of 10, and situation that you fear or worry the most gets a rating of 100
         </h3>
       <form
         onSubmit={handleSubmit(onSubmit)}
